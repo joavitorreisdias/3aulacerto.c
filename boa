@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>  //  Arquivo de cabeçalho (header)
+void main()
+{
+    float Base;
+    float Altura;
+    float area;
+
+    printf("Digite a base: ");
+    scanf("%f", &Base);
+    printf("Digite a altura: ");
+    scanf("%f", &Altura);
+    area = Base*Altura/2.0;
+    printf(" a area vale  : %f", area);
+
+}
